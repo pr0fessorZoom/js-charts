@@ -1,13 +1,23 @@
-<<<<<<< HEAD
-# React + Vite
+# Graficos usando React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Aplicacion simple para mostrar trafico tanto malicioso como normal.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# js-charts
-Graficos utilizando React
->>>>>>> d7cc6b876b6c9763ce455213522bdfcd5105eb01
+- Bunjs
+- Reactjs
+- Tailwindcss
+- Chartsjs
+- React Charts 2
+- FetchApi
+
+## Uso
+
+- Para usar es muy sencillo necesitas instalar Bunjs, tambien es posible con NPM asi que no hay problemas.
+- `bun install` Para instalar las librerias necesarias
+- `bun run dev`  Para iniciar el entorno de desarrollo
+- `bun run build` Para ejecutar el proyecto en Build
+
+## Nota
+
+- Aun no esta listo el funcionamiento en realtime asi que `./API/getData.js` No es recomendable usar.
