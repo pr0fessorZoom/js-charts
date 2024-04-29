@@ -4,16 +4,17 @@
 
 ## Tecnologias
 
-- Bunjs
+- Bunjs || NODE
 - Reactjs
 - Tailwindcss
+- Vite
 - Chartsjs
 - React Charts 2
 - FetchApi
 
 ## Uso
 
-- Para usar es muy sencillo necesitas instalar Bunjs, tambien es posible con NPM asi que no hay problemas.
+- Para usar es muy sencillo necesitas instalar Bunjs, tambien es posible con NODE usando npm asi que no hay problemas.
 - `bun install` Para instalar las librerias necesarias
 - `bun run dev`  Para iniciar el entorno de desarrollo
 - `bun run build` Para ejecutar el proyecto en Build
