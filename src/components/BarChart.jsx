@@ -24,7 +24,7 @@ ChartJS.register(
 const BarChart = () => {
   const options = {}
   return (
-    <div className='w-4/5 h-3/5 border-2 rounded-xl border-black mx-4 flex items-center justify-center'>
+    <div className='w-4/5 h-3/5 border-2 rounded-xl border-black mx-4 flex items-center justify-center hover:cursor-pointer'>
       <Bar options={options} data={fakeData}/>
     </div>
   );
