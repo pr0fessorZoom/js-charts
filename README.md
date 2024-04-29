@@ -21,4 +21,4 @@
 
 ## Nota
 
-- Aun no esta listo el funcionamiento en realtime asi que `./API/getData.js` No es recomendable usar.
+- El funcionamiento del elemento de "Monitoreo de Trafico" Funciona utilizando [Python APP](https://github.com/pr0fessorZoom/py-data-server.git)

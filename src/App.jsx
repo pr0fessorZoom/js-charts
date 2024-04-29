@@ -1,8 +1,8 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 
-import Header from "./components/Header";
 import BarChart from "./components/BarChart";
+import Traffic from "./components/Traffic";
 import { PieChart } from "./components/PieChart";
 
 const Button = ({ component }) => {
@@ -29,10 +29,13 @@ Button.propTypes = { // Valida las props
 function App() {
   return (
     <>
-      <Header />
-      <div className="flex mx-5">
+      <div className="flex w-full h-2/4">
         <Button component={<BarChart/>}/>
         <Button component={<PieChart />}/>
+      </div>
+      <div className="w-full h-max flex flex-col items-center">
+        <h2 className="text-2xl font-bold">Monitoreo de trafico</h2>
+        <Traffic />
       </div>
     </>
   );
